@@ -1,0 +1,28 @@
+package kh.bbq.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import kh.bbq.entity.BbqUser;
+import kh.bbq.repository.UserRepository;
+
+import java.util.Optional;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	public BbqUser registerUser(BbqUser user) {
+		return userRepository.save(user);
+	}
+
+	public BbqUser loginUser(String username, String password) {
+		return userRepository.findByUsernameAndPassword(username, password);
+	}
+
+	public Optional<BbqUser> getUserById(Long id) {
+		return userRepository.findById(id);
+	}
+}

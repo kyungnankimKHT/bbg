@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="kh.bbq.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="kh.pizzastore.repository.ProductRepository"/>
+    <fullyQualifiedTypeName name="kh.bbq.service.ProductService"/>
+    <fullyQualifiedTypeName name="kh.bbq.entity.BbqProduct"/>
+    <fullyQualifiedTypeName name="kh.bbq.service.UserService"/>
+    <fullyQualifiedTypeName name="kh.bbq.entity.BbqUser"/>
+</qualifiedTypeNameHistroy>

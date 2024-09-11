@@ -1,0 +1,5 @@
+package kh.bbq.controller;
+
+public class BbqUser {
+
+}
